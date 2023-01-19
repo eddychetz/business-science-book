@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Business Science Practice",
+    "section": "",
+    "text": "Preface\nThis e-book/notes is intended to be used complementary to Applied Statistics courses at Belgium Campus ITversity NPC 1, IT Faculty - Data Science and Business Intelligence cluster in Pretoria, Stellenbosch, and Kempton Park campuses.\nThe book is organised in such a way that each chapter is expanded from the previous chapters for easy use. Because of this, the chapters are not including the knowledge of previously covered topics elsewhere. Therefore, readers are required to have basic understanding of high school Mathematics and Statistics for you to be able to utilize this e-book.\nThis book is compiled using Quarto. To learn more about Quarto books visit https://quarto.org/docs/books."
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\nCode\n1 + 1\n\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "data-desc.html",
+    "href": "data-desc.html",
+    "title": "2  Data Description",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n\nCode\n1 + 1\n\n\n[1] 2"
+  },
+  {
+    "objectID": "prob.html",
+    "href": "prob.html",
+    "title": "3  Probability",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n\nCode\n1 + 1\n\n\n[1] 2"
+  }
+]

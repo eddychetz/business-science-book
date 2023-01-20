@@ -1,0 +1,7 @@
+# Time Series Forecasting
+
+-   If you work for a company, every single one is going to do some form of selling. which means if you can predict sales, revenue drops, supply & demand etc...
+
+-   How valuable do you think you're going to be?
+
+-   Being able to predict the future accurately is one of the most profitable skills a data scientist can possess.

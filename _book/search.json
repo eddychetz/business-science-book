@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Business Science Practice",
     "section": "",
-    "text": "Welcome\nThis e-book/notes is intended to be used complementary to Business Science in Practice using R and Python.\nThe book is organised in such a way that each chapter is expanded from the previous chapters for easy use. Because of this, the chapters are not including the knowledge of previously covered topics elsewhere. Therefore, readers are required to have basic understanding of high school Mathematics and Statistics for you to be able to utilize this e-book.\nThis book is compiled using Quarto. To learn more about Quarto books visit https://quarto.org/docs/books."
+    "text": "This e-book/notes is intended to be used complementary to Business Science in Practice using R and Python.\nThe book is organised in such a way that each chapter is expanded from the previous chapters for easy use. Because of this, the chapters are not including the knowledge of previously covered topics elsewhere. Therefore, readers are required to have basic understanding of high school Mathematics and Statistics for you to be able to utilize this e-book.\nThis book is compiled using Quarto. To learn more about Quarto books visit https://quarto.org/docs/books."
   },
   {
     "objectID": "intro.html",
@@ -16,9 +16,9 @@
   {
     "objectID": "summary.html",
     "href": "summary.html",
-    "title": "2  Summary",
+    "title": "Summary",
     "section": "",
-    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
+    "text": "In summary, this book has no content whatsoever.\n\n\nCode\n1 + 1\n\n\n[1] 2"
   },
   {
     "objectID": "references.html",
@@ -40,5 +40,47 @@
     "title": "3  Probability",
     "section": "",
     "text": "In summary, this book has no content whatsoever.\n\n\nCode\n1 + 1\n\n\n[1] 2"
+  },
+  {
+    "objectID": "foundational.html",
+    "href": "foundational.html",
+    "title": "2  Foundational Skills",
+    "section": "",
+    "text": "In summary, this book has Data Science Foundational Skills content.\n\nData Cleaning\nData Wrangling\nVisualization\nExploratory Data Analysis\nMachine Learning\nClustering\nReporting\nProgramming"
+  },
+  {
+    "objectID": "problem-solving.html",
+    "href": "problem-solving.html",
+    "title": "3  Business Problem Solving Skills",
+    "section": "",
+    "text": "In summary, this book has Business Problem Solving Skills content.\n\nCorrelation Analysis\nHow to cost a problem\nHow to pre-process the data\nHow to tell a story\nHow to do automated machine learning\nHow to do explainable AI/ML\nSensitivity Analysis"
+  },
+  {
+    "objectID": "time-series.html",
+    "href": "time-series.html",
+    "title": "4  Time Series Forecasting",
+    "section": "",
+    "text": "If you work for a company, every single one is going to do some form of selling. which means if you can predict sales, revenue drops, supply & demand etc…\nHow valuable do you think you’re going to be?\nBeing able to predict the future accurately is one of the most profitable skills a data scientist can possess."
+  },
+  {
+    "objectID": "index.html#requirements",
+    "href": "index.html#requirements",
+    "title": "Business Science Practice",
+    "section": "Requirements",
+    "text": "Requirements\n\nFoundational Skills\n\nData Cleaning\nData Wrangling\nVisualization\nExploratory Data Analysis\nMachine Learning\nClustering\nReporting\nProgramming\n\n\n\nBusiness Problem-Solving Skills\n\nCorrelation Analysis\nHow to cost a problem\nHow to pre-process the data\nHow to tell a story\nHow to do automated machine learning\nHow to do explainable AI/ML\nSensitivity Analysis\n\n\n\nTime Series Forecasting\n\nIf you work for a company, every single one is going to do some form of selling. which means if you can predict sales, revenue drops, supply & demand etc…\nHow valuable do you think you’re going to be?\nBeing able to predict the future accurately is one of the most profitable skills a data scientist can possess.\n\n\n\nBuilding Tools for Yourself\n\nBuilding tools for yourself creates repeatable business analysis.\nGetting tools put into production is the single most valuable way for “non-techie” people to get value from work.\n\n\n\nBuilding Tools for Your Company\n\nThis automates entire business processes\nCuts out the IT Department completely\nIt also automatically turns you into a leader."
+  },
+  {
+    "objectID": "build-portfolio-tools.html",
+    "href": "build-portfolio-tools.html",
+    "title": "5  Building Tools for Yourself",
+    "section": "",
+    "text": "Building tools for yourself creates repeatable business analysis.\nGetting tools put into production is the single most valuable way for “non-techie” people to get value from work."
+  },
+  {
+    "objectID": "build-company-tools.html",
+    "href": "build-company-tools.html",
+    "title": "6  Building Tools for Your Company",
+    "section": "",
+    "text": "This automates entire business processes\nCuts out the IT Department completely\nIt also automatically turns you into a leader."
   }
 ]

@@ -1,0 +1,5 @@
+# Building Tools for Yourself
+
+- Building tools for yourself creates repeatable business analysis.
+
+- Getting tools put into production is the single most valuable way for “non-techie” people to get value from work.

@@ -14,8 +14,11 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
-    - data-desc.qmd
-    - prob.qmd
+    - foundational.qmd
+    - problem-solving.qmd
+    - time-series.qmd
+    - build-portfolio-tools.qmd
+    - build-company-tools.qmd
     - summary.qmd
     - references.qmd
   # appendices:

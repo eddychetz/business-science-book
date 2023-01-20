@@ -1,0 +1,19 @@
+# Foundational Skills
+
+In summary, this book has Data Science **Foundational Skills** content.
+
+-   Data Cleaning
+
+-   Data Wrangling
+
+-   Visualization
+
+-   Exploratory Data Analysis
+
+-   Machine Learning
+
+-   Clustering
+
+-   Reporting
+
+-   Programming

@@ -7,3 +7,64 @@ The book is organised in such a way that each chapter is expanded from the previ
 This book is compiled using [Quarto](https://quarto.org/docs/books). To learn more about Quarto books visit <https://quarto.org/docs/books>.
 
 ![](bc-logo.png){fig-align="center"}
+
+![](path.png){fig-align="center"}
+
+## Requirements {.unnumbered}
+
+### Foundational Skills
+
+-   Data Cleaning
+
+-   Data Wrangling
+
+-   Visualization
+
+-   Exploratory Data Analysis
+
+-   Machine Learning
+
+-   Clustering
+
+-   Reporting
+
+-   Programming
+
+### Business Problem-Solving Skills
+
+-   Correlation Analysis
+
+-   How to cost a problem
+
+-   How to pre-process the data
+
+-   How to tell a story
+
+-   How to do automated machine learning
+
+-   How to do explainable AI/ML
+
+-   Sensitivity Analysis
+
+### Time Series Forecasting
+
+-   If you work for a company, every single one is going to do some form of selling. which means if you can predict sales, revenue drops, supply & demand etc...
+
+-   How valuable do you think you're going to be?
+
+-   Being able to predict the future accurately is one of the most profitable skills a data scientist can possess.
+
+### Building Tools for Yourself
+
+-   Building tools for yourself creates repeatable business analysis.
+
+-   Getting tools put into production is the single most valuable way for "non-techie" people to get value from work.
+
+### Building Tools for Your Company
+
+-   This automates entire business processes
+
+-   Cuts out the IT Department completely
+
+-   It also automatically turns you into a leader.
+

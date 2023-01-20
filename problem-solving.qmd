@@ -1,0 +1,17 @@
+# Business Problem Solving Skills
+
+In summary, this book has Business Problem Solving Skills content.
+
+-   Correlation Analysis
+
+-   How to cost a problem
+
+-   How to pre-process the data
+
+-   How to tell a story
+
+-   How to do automated machine learning
+
+-   How to do explainable AI/ML
+
+-   Sensitivity Analysis

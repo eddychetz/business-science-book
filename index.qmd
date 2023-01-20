@@ -1,10 +1,9 @@
-# Preface {.unnumbered}
+# Welcome {.unnumbered}
 
-This e-book/notes is intended to be used complementary to Applied Statistics courses at [Belgium Campus ITversity NPC 1](https://www.belgiumcampus.ac.za), IT Faculty - **Data Science** and **Business Intelligence** cluster in **Pretoria**, **Stellenbosch**, and **Kempton Park** campuses.
+This e-book/notes is intended to be used complementary to Business Science in Practice using R and Python.
 
 The book is organised in such a way that each chapter is expanded from the previous chapters for easy use. Because of this, the chapters are not including the knowledge of previously covered topics elsewhere. Therefore, readers are required to have basic understanding of high school Mathematics and Statistics for you to be able to utilize this e-book.
 
 This book is compiled using [Quarto](https://quarto.org/docs/books). To learn more about Quarto books visit <https://quarto.org/docs/books>.
 
-
-![](cover.png)
+![](bc-logo.png){fig-align="center"}

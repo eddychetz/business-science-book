@@ -2,10 +2,15 @@ project:
   type: book
 
 book:
+  cover-image: cover.png
   page-navigation: true
   title: "Business Science Practice"
   author: "Eddwin Cheteni"
   date: "2023/01/18"
+  repo-url: https://github.com/eddychetz/business-science-book.git
+  repo-actions: [edit, issue, source]
+  downloads: [pdf, epub]
+  sharing: [facebook, twitter]
   chapters:
     - index.qmd
     - intro.qmd
@@ -17,6 +22,8 @@ book:
   #   - tools.qmd
   #   - resources.qmd
 
+comments:
+  hypothesis: false
 bibliography: references.bib
 
 format:

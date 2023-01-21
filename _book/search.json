@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Business Science Practice",
     "section": "",
-    "text": "This e-book/notes is intended to be used complementary to Business Science in Practice using R and Python.\nThe book is organised in such a way that each chapter is expanded from the previous chapters for easy use. Because of this, the chapters are not including the knowledge of previously covered topics elsewhere. Therefore, readers are required to have basic understanding of high school Mathematics and Statistics for you to be able to utilize this e-book.\nThis book is compiled using Quarto. To learn more about Quarto books visit https://quarto.org/docs/books."
+    "text": "This e-book/notes is intended to be used complementary to Business Science in Practice using R.\nLet this convey you to your dream job in any sector of your interests."
   },
   {
     "objectID": "intro.html",
@@ -82,5 +82,19 @@
     "title": "6  Building Tools for Your Company",
     "section": "",
     "text": "This automates entire business processes\nCuts out the IT Department completely\nIt also automatically turns you into a leader."
+  },
+  {
+    "objectID": "index.html#the-ideal-career-path-to-become-a-senior-data-scientist",
+    "href": "index.html#the-ideal-career-path-to-become-a-senior-data-scientist",
+    "title": "Business Science Practice",
+    "section": "The ideal career path to become a Senior Data Scientist",
+    "text": "The ideal career path to become a Senior Data Scientist\n\nRequirements\n\n\n\n\n\n\n1. Foundational Skills\n\nData Cleaning\nData Wrangling\nVisualization\nExploratory Data Analysis\nMachine Learning\nClustering\nReporting\nProgramming\n\n\n\n2. Business Problem-Solving Skills\n\nCorrelation Analysis\nHow to cost a problem\nHow to pre-process the data\nHow to tell a story\nHow to do automated machine learning\nHow to do explainable AI/ML\nSensitivity Analysis\n\n\n\n3. Time Series Forecasting\n\nIf you work for a company, every single one is going to do some form of selling. which means if you can predict sales, revenue drops, supply & demand etc…\nHow valuable do you think you’re going to be?\nBeing able to predict the future accurately is one of the most profitable skills a data scientist can possess.\n\n\n\n4. Building Tools for Yourself\n\nBuilding tools for yourself creates repeatable business analysis.\nGetting tools put into production is the single most valuable way for “non-techie” people to get value from work.\n\n\n\n5. Building Tools for Your Company\n\nThis automates entire business processes\nCuts out the IT Department completely\nIt also automatically turns you into a leader."
+  },
+  {
+    "objectID": "index.html#how-to-become-a-senior-data-scientist-using-r",
+    "href": "index.html#how-to-become-a-senior-data-scientist-using-r",
+    "title": "Business Science Practice",
+    "section": "How to become a Senior Data Scientist using R",
+    "text": "How to become a Senior Data Scientist using R\n\n\n\n\n\nThe book is organized in such a way that each chapter is focused on giving you the necessary skills that suit a particular role. For a Data Analyst role, Foundational Skills provides you with a full package of the tools you need. To land on Data Scientist role, there are three stages that can make you the best Data Scientist to save companies millions of dollars. You need to have (1) Business Problem-Solving Skills as many companies will be interested in boosting Sales Volumes, reducing Inventory and Transport Costs, Waste Reduction in the Productions Department, and gaining Huge Profits. As major issues of concern that Promotes Growth in every industry, as a Data Scientist, this becomes a gateway to every business’s success. You must be able to tell decision-makers How is your ML model affects business?.\nEvery event in business happens at a particular point in time which, if information about the event is captured and recorded, can help businesses to answer the What happens?, What is likely to happen in the future?, and What action must be taken? questions for improved business performance. (2) Time Series Forecasting is the key to strategic business decisions as this will help businesses to improve their processes and meet their goals at all levels.\nThe voice of customers impacts business performance, being able to provide customers’ needs connects you to the core of potential growth. As a Data Scientist that has ML, problem-solving, and time series forecasting skills, consider yourself more valuable when you’re able to (3) Build Tools for Yourself using R. These web applications reflect the extent of your knowledge and achievements and therefore shiny will be your best friend to nail it.\nIf you do not want to keep on working as a Data Scientist, you need to bring impact to the business. Building Tools for your Company will put you in the spotlight for promotion to the Senior Data Scientist role.\nThis book is compiled using Quarto. To learn more about Quarto books visit https://quarto.org/docs/books."
   }
 ]

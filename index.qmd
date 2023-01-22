@@ -16,7 +16,7 @@ Let this convey you to your dream job in any sector of your interests.
 
 ## How to become a Senior Data Scientist using R {.unnumbered}
 
-![](path2.png){fig-align="center"}
+![](images/path2.png){fig-align="center"}
 
 The book is organized in such a way that each chapter is focused on giving you the necessary skills that suit a particular role. For a `Data Analyst` role, **Foundational Skills** provides you with a full package of the tools you need. To land on `Data Scientist` role, there are three stages that can make you the best `Data Scientist` to save companies millions of dollars. You need to have (1) **Business Problem-Solving Skills** as many companies will be interested in *boosting sales volumes, reducing inventory and transport costs*, *waste reduction in the Productions Department*, and *boosting profits*. As major issues of concern that *promotes growth* in every industry, as a Data Scientist, this becomes a gateway to every business's success. You must be able to tell decision-makers `How is your ML model affects business?`.
 
@@ -28,4 +28,4 @@ If you do not want to keep on working as a `Data Scientist`, you need to bring i
 
 This book is compiled using [Quarto](https://quarto.org/docs/books). To learn more about Quarto books visit <https://quarto.org/docs/books>.
 
-![](bc-logo.png){fig-align="center"}
+![](images/bc-logo.png){fig-align="center"}

@@ -179,7 +179,20 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#data-cleaning" id="toc-data-cleaning" class="nav-link active" data-scroll-target="#data-cleaning"><span class="toc-section-number">2.1</span>  Data Cleaning</a>
+  <ul class="collapse">
+  <li><a href="#libraries" id="toc-libraries" class="nav-link" data-scroll-target="#libraries"><span class="toc-section-number">2.1.1</span>  Libraries</a></li>
+  </ul></li>
+  <li><a href="#data-wrangling" id="toc-data-wrangling" class="nav-link" data-scroll-target="#data-wrangling"><span class="toc-section-number">2.2</span>  Data Wrangling</a></li>
+  <li><a href="#visualization" id="toc-visualization" class="nav-link" data-scroll-target="#visualization"><span class="toc-section-number">2.3</span>  Visualization</a></li>
+  <li><a href="#exploratory-data-analysis" id="toc-exploratory-data-analysis" class="nav-link" data-scroll-target="#exploratory-data-analysis"><span class="toc-section-number">2.4</span>  Exploratory Data Analysis</a></li>
+  <li><a href="#machine-learning" id="toc-machine-learning" class="nav-link" data-scroll-target="#machine-learning"><span class="toc-section-number">2.5</span>  Machine Learning</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/eddychetz/business-science-book.git/edit/main/foundational.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/eddychetz/business-science-book.git/issues/new" class="toc-action">Report an issue</a></p><p><a href="https://github.com/eddychetz/business-science-book.git/blob/main/foundational.qmd" class="toc-action">View source</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -202,18 +215,190 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p>In summary, this book has Data Science <strong>Foundational Skills</strong> content.</p>
+<section id="data-cleaning" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="data-cleaning"><span class="header-section-number">2.1</span> Data Cleaning</h2>
+<p>This involves:</p>
 <ul>
-<li><p>Data Cleaning</p></li>
-<li><p>Data Wrangling</p></li>
-<li><p>Visualization</p></li>
-<li><p>Exploratory Data Analysis</p></li>
-<li><p>Machine Learning</p></li>
+<li><p>removing duplicates,</p></li>
+<li><p>checking missing data and performing imputations, if necessary,</p></li>
+<li><p>verifying data types if match the data dictionary,</p></li>
+<li><p>dropping of irrelevant columns.</p></li>
+</ul>
+<section id="libraries" class="level3" data-number="2.1.1">
+<h3 data-number="2.1.1" class="anchored" data-anchor-id="libraries"><span class="header-section-number">2.1.1</span> Libraries</h3>
+<div class="cell">
+
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/tidyverse.jpg" class="img-fluid figure-img" width="377"></p>
+</figure>
+</div>
+<p>Thanks to <code>skimr</code> as this package is capable of scanning your data and gives you the skeletal view and most important descriptive summary of variables in the data set.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="table table-sm table-striped">
+<caption>Data summary</caption>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Name</td>
+<td style="text-align: left;">data</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Number of rows</td>
+<td style="text-align: left;">32</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Number of columns</td>
+<td style="text-align: left;">5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">_______________________</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Column type frequency:</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">factor</td>
+<td style="text-align: left;">4</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">numeric</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">________________________</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Group variables</td>
+<td style="text-align: left;">None</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Variable type: factor</strong></p>
+<table class="table table-sm table-striped">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 11%">
+<col style="width: 16%">
+<col style="width: 9%">
+<col style="width: 10%">
+<col style="width: 36%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">skim_variable</th>
+<th style="text-align: right;">n_missing</th>
+<th style="text-align: right;">complete_rate</th>
+<th style="text-align: left;">ordered</th>
+<th style="text-align: right;">n_unique</th>
+<th style="text-align: left;">top_counts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Class</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">1st: 8, 2nd: 8, 3rd: 8, Cre: 8</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Sex</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: left;">Mal: 16, Fem: 16</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Age</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: left;">Chi: 16, Adu: 16</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Survived</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: left;">No: 16, Yes: 16</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Variable type: numeric</strong></p>
+<table class="table table-sm table-striped">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 14%">
+<col style="width: 20%">
+<col style="width: 8%">
+<col style="width: 5%">
+<col style="width: 4%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 5%">
+<col style="width: 7%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">skim_variable</th>
+<th style="text-align: right;">n_missing</th>
+<th style="text-align: right;">complete_rate</th>
+<th style="text-align: right;">mean</th>
+<th style="text-align: right;">sd</th>
+<th style="text-align: right;">p0</th>
+<th style="text-align: right;">p25</th>
+<th style="text-align: right;">p50</th>
+<th style="text-align: right;">p75</th>
+<th style="text-align: right;">p100</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Freq</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">68.78</td>
+<td style="text-align: right;">136</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.75</td>
+<td style="text-align: right;">13.5</td>
+<td style="text-align: right;">77</td>
+<td style="text-align: right;">670</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+</section>
+<section id="data-wrangling" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="data-wrangling"><span class="header-section-number">2.2</span> Data Wrangling</h2>
+</section>
+<section id="visualization" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="visualization"><span class="header-section-number">2.3</span> Visualization</h2>
+</section>
+<section id="exploratory-data-analysis" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="exploratory-data-analysis"><span class="header-section-number">2.4</span> Exploratory Data Analysis</h2>
+</section>
+<section id="machine-learning" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="machine-learning"><span class="header-section-number">2.5</span> Machine Learning</h2>
+<ul>
 <li><p>Clustering</p></li>
 <li><p>Reporting</p></li>
 <li><p>Programming</p></li>
 </ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

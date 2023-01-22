@@ -46,7 +46,7 @@
     "href": "foundational.html",
     "title": "2  Foundational Skills",
     "section": "",
-    "text": "In summary, this book has Data Science Foundational Skills content.\n\nData Cleaning\nData Wrangling\nVisualization\nExploratory Data Analysis\nMachine Learning\nClustering\nReporting\nProgramming"
+    "text": "3 Foundational Skills\nIn summary, this book has Data Science Foundational Skills content."
   },
   {
     "objectID": "problem-solving.html",
@@ -96,5 +96,40 @@
     "title": "Business Science Practice",
     "section": "How to become a Senior Data Scientist using R",
     "text": "How to become a Senior Data Scientist using R\n\n\n\n\n\nThe book is organized in such a way that each chapter is focused on giving you the necessary skills that suit a particular role. For a Data Analyst role, Foundational Skills provides you with a full package of the tools you need. To land on Data Scientist role, there are three stages that can make you the best Data Scientist to save companies millions of dollars. You need to have (1) Business Problem-Solving Skills as many companies will be interested in boosting sales volumes, reducing inventory and transport costs, waste reduction in the Productions Department, and boosting profits. As major issues of concern that promotes growth in every industry, as a Data Scientist, this becomes a gateway to every business’s success. You must be able to tell decision-makers How is your ML model affects business?.\nEvery event in business happens at a particular point in time which, if information about the event is captured and recorded, can help businesses to answer the What happens?, What is likely to happen in the future?, and What action must be taken? questions for improved business performance. (2) Time Series Forecasting is the key to strategic business decisions as this will help businesses to improve their processes and meet their goals at all levels.\nThe voice of customers impacts business performance, being able to provide customers’ needs connects you to the core of business’ potential growth. As a Data Scientist that has ML, problem-solving, and time series forecasting skills, consider yourself more valuable when you’re able to (3) Build Tools for Yourself using R. These web applications reflect the extent of your knowledge and achievements and therefore shiny will be your best friend to nail it.\nIf you do not want to keep on working as a Data Scientist, you need to bring impact to the business. Building Tools for your Company will put you in the spotlight for promotion to the Senior Data Scientist role.\nThis book is compiled using Quarto. To learn more about Quarto books visit https://quarto.org/docs/books."
+  },
+  {
+    "objectID": "foundational.html#data-cleaning",
+    "href": "foundational.html#data-cleaning",
+    "title": "2  Foundational Skills",
+    "section": "2.1 Data Cleaning",
+    "text": "2.1 Data Cleaning\nThis involves:\n\nremoving duplicates,\nchecking missing data and performing imputations, if necessary,\nverifying data types if match the data dictionary,\ndropping of irrelevant columns.\n\n\n2.1.1 Libraries\n\n\n\n\n\n\n\n\nThanks to skimr as this package is capable of scanning your data and gives you the skeletal view and most important descriptive summary of variables in the data set.\n\n\n\nData summary\n\n\nName\ndata\n\n\nNumber of rows\n32\n\n\nNumber of columns\n5\n\n\n_______________________\n\n\n\nColumn type frequency:\n\n\n\nfactor\n4\n\n\nnumeric\n1\n\n\n________________________\n\n\n\nGroup variables\nNone\n\n\n\nVariable type: factor\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\nn_missing\ncomplete_rate\nordered\nn_unique\ntop_counts\n\n\n\n\nClass\n0\n1\nFALSE\n4\n1st: 8, 2nd: 8, 3rd: 8, Cre: 8\n\n\nSex\n0\n1\nFALSE\n2\nMal: 16, Fem: 16\n\n\nAge\n0\n1\nFALSE\n2\nChi: 16, Adu: 16\n\n\nSurvived\n0\n1\nFALSE\n2\nNo: 16, Yes: 16\n\n\n\nVariable type: numeric\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\nn_missing\ncomplete_rate\nmean\nsd\np0\np25\np50\np75\np100\n\n\n\n\nFreq\n0\n1\n68.78\n136\n0\n0.75\n13.5\n77\n670"
+  },
+  {
+    "objectID": "foundational.html#data-wrangling",
+    "href": "foundational.html#data-wrangling",
+    "title": "2  Foundational Skills",
+    "section": "2.2 Data Wrangling",
+    "text": "2.2 Data Wrangling"
+  },
+  {
+    "objectID": "foundational.html#visualization",
+    "href": "foundational.html#visualization",
+    "title": "2  Foundational Skills",
+    "section": "2.3 Visualization",
+    "text": "2.3 Visualization"
+  },
+  {
+    "objectID": "foundational.html#exploratory-data-analysis",
+    "href": "foundational.html#exploratory-data-analysis",
+    "title": "2  Foundational Skills",
+    "section": "2.4 Exploratory Data Analysis",
+    "text": "2.4 Exploratory Data Analysis"
+  },
+  {
+    "objectID": "foundational.html#machine-learning",
+    "href": "foundational.html#machine-learning",
+    "title": "2  Foundational Skills",
+    "section": "2.5 Machine Learning",
+    "text": "2.5 Machine Learning\n\nClustering\nReporting\nProgramming"
   }
 ]

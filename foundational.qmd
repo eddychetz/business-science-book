@@ -1,16 +1,52 @@
-# Foundational Skills
+---
+title: "Foundational Skills"
+---
 
 In summary, this book has Data Science **Foundational Skills** content.
 
--   Data Cleaning
+## Data Cleaning
 
--   Data Wrangling
+This involves:
 
--   Visualization
+-   removing duplicates,
 
--   Exploratory Data Analysis
+-   checking missing data and performing imputations, if necessary,
 
--   Machine Learning
+-   verifying data types if match the data dictionary,
+
+-   dropping of irrelevant columns.
+
+### Libraries
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+library(tidyverse) # core lib
+```
+
+![](images/tidyverse.jpg){fig-align="center" width="377"}
+
+Thanks to `skimr` as this package is capable of scanning your data and gives you the skeletal view and most important descriptive summary of variables in the data set.
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+library(datasets)
+library(skimr)
+data <- Titanic
+skim_without_charts(data)
+```
+
+## Data Wrangling
+
+## Visualization
+
+## Exploratory Data Analysis
+
+## Machine Learning
 
 -   Clustering
 

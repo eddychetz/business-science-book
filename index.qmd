@@ -1,6 +1,6 @@
 # Welcome {.unnumbered}
 
-This e-book/notes is intended to be used complementary to Business Science in Practice using R.
+This e-book/notes is intended to be used complementary to R Tools for Business Science.
 
 Let this convey you to your dream job in any sector of your interests.
 

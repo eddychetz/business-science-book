@@ -4,6 +4,12 @@
 
 This is a book created from markdown and executable [code](https://github.com/eddychetz/business-science-book).
 
+## Overview
+
+This book will mainly focus on explaining the major steps in the *Machine Learning* process with reference to the **CRISP-DM** model. For easy use of this book, each step in the process will give a basic illustration in order to understand how it is implemented using R.
+
+For an individual to have the knowledge of Machine Learning only is not enough to bring impact the decisions people make individually or in a business organization. Knowing the financial implication of Machine Learning equips you with modern, classical, and state-of-the-art tools for business. Therefore, in addition to steps in the Machine Learning process and its financial benefits to *Business Science*, this book will include the *domain area* in which it is applied mainly to *Financial Services 💰*, *Food & Beverages 🧃🍽️*, *Retail & E-commerce 🛒*, *Education 📚*, and *Product Distribution 🚚*, *Manufacturing* 🏭 and *Real Estate 🏘️*.
+
 ```{r}
 1 + 1
 ```

@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Business Science Practice",
     "section": "",
-    "text": "This e-book/notes is intended to be used complementary to Business Science in Practice using R.\nLet this convey you to your dream job in any sector of your interests."
+    "text": "This e-book/notes is intended to be used complementary to R Tools for Business Science.\nLet this convey you to your dream job in any sector of your interests."
   },
   {
     "objectID": "intro.html",
@@ -131,5 +131,12 @@
     "title": "2  Foundational Skills",
     "section": "2.5 Machine Learning",
     "text": "2.5 Machine Learning\n\nClustering\nReporting\nProgramming"
+  },
+  {
+    "objectID": "intro.html#overview",
+    "href": "intro.html#overview",
+    "title": "1  Introduction",
+    "section": "1.1 Overview",
+    "text": "1.1 Overview\nThis book will mainly focus on explaining the major steps in the Machine Learning process with reference to the CRISP-DM model. For easy use of this book, each step in the process will give a basic illustration in order to understand how it is implemented using R.\nFor an individual to have the knowledge of Machine Learning only is not enough to bring impact the decisions people make individually or in a business organization. Knowing the financial implication of Machine Learning equips you with modern, classical, and state-of-the-art tools for business. Therefore, in addition to steps in the Machine Learning process and its financial benefits to Business Science, this book will include the domain area in which it is applied mainly to Financial Services 💰, Food & Beverages 🧃🍽️, Retail & E-commerce 🛒, Education 📚, and Product Distribution 🚚, Manufacturing 🏭 and Real Estate 🏘️.\n\n\nCode\n1 + 1\n\n\n[1] 2"
   }
 ]

@@ -62,6 +62,9 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -183,14 +186,18 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#data-cleaning" id="toc-data-cleaning" class="nav-link active" data-scroll-target="#data-cleaning"><span class="toc-section-number">2.1</span>  Data Cleaning</a>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="toc-section-number">2.1</span>  Introduction</a>
   <ul class="collapse">
-  <li><a href="#libraries" id="toc-libraries" class="nav-link" data-scroll-target="#libraries"><span class="toc-section-number">2.1.1</span>  Libraries</a></li>
+  <li><a href="#business-science-workflow-in-r" id="toc-business-science-workflow-in-r" class="nav-link" data-scroll-target="#business-science-workflow-in-r"><span class="toc-section-number">2.1.1</span>  Business Science Workflow in R</a></li>
   </ul></li>
-  <li><a href="#data-wrangling" id="toc-data-wrangling" class="nav-link" data-scroll-target="#data-wrangling"><span class="toc-section-number">2.2</span>  Data Wrangling</a></li>
-  <li><a href="#visualization" id="toc-visualization" class="nav-link" data-scroll-target="#visualization"><span class="toc-section-number">2.3</span>  Visualization</a></li>
-  <li><a href="#exploratory-data-analysis" id="toc-exploratory-data-analysis" class="nav-link" data-scroll-target="#exploratory-data-analysis"><span class="toc-section-number">2.4</span>  Exploratory Data Analysis</a></li>
-  <li><a href="#machine-learning" id="toc-machine-learning" class="nav-link" data-scroll-target="#machine-learning"><span class="toc-section-number">2.5</span>  Machine Learning</a></li>
+  <li><a href="#data-cleaning" id="toc-data-cleaning" class="nav-link" data-scroll-target="#data-cleaning"><span class="toc-section-number">2.2</span>  Data Cleaning</a>
+  <ul class="collapse">
+  <li><a href="#libraries" id="toc-libraries" class="nav-link" data-scroll-target="#libraries"><span class="toc-section-number">2.2.1</span>  Libraries</a></li>
+  </ul></li>
+  <li><a href="#data-wrangling" id="toc-data-wrangling" class="nav-link" data-scroll-target="#data-wrangling"><span class="toc-section-number">2.3</span>  Data Wrangling</a></li>
+  <li><a href="#visualization" id="toc-visualization" class="nav-link" data-scroll-target="#visualization"><span class="toc-section-number">2.4</span>  Visualization</a></li>
+  <li><a href="#exploratory-data-analysis" id="toc-exploratory-data-analysis" class="nav-link" data-scroll-target="#exploratory-data-analysis"><span class="toc-section-number">2.5</span>  Exploratory Data Analysis</a></li>
+  <li><a href="#machine-learning" id="toc-machine-learning" class="nav-link" data-scroll-target="#machine-learning"><span class="toc-section-number">2.6</span>  Machine Learning</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/eddychetz/business-science-book.git/edit/main/foundational.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/eddychetz/business-science-book.git/issues/new" class="toc-action">Report an issue</a></p><p><a href="https://github.com/eddychetz/business-science-book.git/blob/main/foundational.qmd" class="toc-action">View source</a></p></div></div></nav>
     </div>
@@ -214,9 +221,58 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>In summary, this book has Data Science <strong>Foundational Skills</strong> content.</p>
-<section id="data-cleaning" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="data-cleaning"><span class="header-section-number">2.1</span> Data Cleaning</h2>
+<section id="introduction" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">2.1</span> Introduction</h2>
+<p>In summary, this section has Business Science <strong>Foundational Skills</strong> content. This includes the entire Business Science process; from data importing to cleaning, wrangling, exploratory data analysis (EDA), feature engineering, splitting, model building and evaluation, reporting and communication of results.</p>
+<section id="business-science-workflow-in-r" class="level3" data-number="2.1.1">
+<h3 data-number="2.1.1" class="anchored" data-anchor-id="business-science-workflow-in-r"><span class="header-section-number">2.1.1</span> Business Science Workflow in R</h3>
+<div class="cell" data-fig-height="1.5" data-fig-width="7.5">
+<div class="cell-output-display">
+<div>
+<p>
+</p><pre class="mermaid mermaid-js" data-tooltip-selector="#mermaid-tooltip-1">flowchart LR
+  A(IMPORT &lt;br&gt; readr, readxl &lt;br&gt; tidyquant, rvest) --&gt; B(TIDY &lt;br&gt; tidyr, tidytext&lt;br&gt; tibble)
+  B(TIDY &lt;br&gt; tidyr, tidytext &lt;br&gt; tibble) --&gt; C(VISUALIZE &lt;br&gt; ggplot2, plotly)
+  C(VISUALIZE &lt;br&gt; ggplot2, plotly) --&gt; D(TRANSFORM &lt;br&gt; lubridate, forcats &lt;br&gt; dplyr, stringr)
+  D(TRANSFORM &lt;br&gt; lubridate, forcats &lt;br&gt; dplyr, stringr) --&gt; E(MODEL &lt;br&gt; tidymodels)
+  E(MODEL &lt;br&gt; tidymodels) --&gt; C(VISUALIZE &lt;br&gt; ggplot2, plotly)
+  E(MODEL &lt;br&gt; tidymodels) --&gt; F(COMMUNICATE &lt;br&gt; Rmarkdown, Shiny)
+</pre>
+<div id="mermaid-tooltip-1" class="mermaidTooltip">
+
+</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<p>
+</p><pre class="mermaid mermaid-js" data-tooltip-selector="#mermaid-tooltip-2">journey
+    title Business Science Workflow
+    section Prepare Data
+      Sourcing: 5: Business Problem
+      Cleaning: 5: Business Problem
+      Recasting: 5: Business Problem
+    section Experimentation
+      Go downstairs: 2: Business Value
+      Sit down: 2: Business Value
+    section Distribution
+      Reporting:
+      Distribution:
+</pre>
+<div id="mermaid-tooltip-2" class="mermaidTooltip">
+
+</div>
+<p></p>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="data-cleaning" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="data-cleaning"><span class="header-section-number">2.2</span> Data Cleaning</h2>
 <p>This involves:</p>
 <ul>
 <li><p>removing duplicates,</p></li>
@@ -224,8 +280,8 @@ ul.task-list li input[type="checkbox"] {
 <li><p>verifying data types if match the data dictionary,</p></li>
 <li><p>dropping of irrelevant columns.</p></li>
 </ul>
-<section id="libraries" class="level3" data-number="2.1.1">
-<h3 data-number="2.1.1" class="anchored" data-anchor-id="libraries"><span class="header-section-number">2.1.1</span> Libraries</h3>
+<section id="libraries" class="level3" data-number="2.2.1">
+<h3 data-number="2.2.1" class="anchored" data-anchor-id="libraries"><span class="header-section-number">2.2.1</span> Libraries</h3>
 <div class="cell">
 
 </div>
@@ -380,17 +436,17 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </section>
 </section>
-<section id="data-wrangling" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="data-wrangling"><span class="header-section-number">2.2</span> Data Wrangling</h2>
+<section id="data-wrangling" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="data-wrangling"><span class="header-section-number">2.3</span> Data Wrangling</h2>
 </section>
-<section id="visualization" class="level2" data-number="2.3">
-<h2 data-number="2.3" class="anchored" data-anchor-id="visualization"><span class="header-section-number">2.3</span> Visualization</h2>
+<section id="visualization" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="visualization"><span class="header-section-number">2.4</span> Visualization</h2>
 </section>
-<section id="exploratory-data-analysis" class="level2" data-number="2.4">
-<h2 data-number="2.4" class="anchored" data-anchor-id="exploratory-data-analysis"><span class="header-section-number">2.4</span> Exploratory Data Analysis</h2>
+<section id="exploratory-data-analysis" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="exploratory-data-analysis"><span class="header-section-number">2.5</span> Exploratory Data Analysis</h2>
 </section>
-<section id="machine-learning" class="level2" data-number="2.5">
-<h2 data-number="2.5" class="anchored" data-anchor-id="machine-learning"><span class="header-section-number">2.5</span> Machine Learning</h2>
+<section id="machine-learning" class="level2" data-number="2.6">
+<h2 data-number="2.6" class="anchored" data-anchor-id="machine-learning"><span class="header-section-number">2.6</span> Machine Learning</h2>
 <ul>
 <li><p>Clustering</p></li>
 <li><p>Reporting</p></li>

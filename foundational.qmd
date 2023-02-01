@@ -2,7 +2,73 @@
 title: "Foundational Skills"
 ---
 
-In summary, this book has Data Science **Foundational Skills** content.
+## Introduction
+
+In summary, this section has Business Science **Foundational Skills** content. This includes the entire Business Science process; from data importing to cleaning, wrangling, exploratory data analysis (EDA), feature engineering, splitting, model building and evaluation, reporting and communication of results.
+
+### Business Science Workflow in R
+
+```{mermaid}
+%%| fig-height: 1.5
+%%| fig-width: 7.5
+flowchart LR
+  A(IMPORT <br> readr, readxl <br> tidyquant, rvest) --> B(TIDY <br> tidyr, tidytext<br> tibble)
+  B(TIDY <br> tidyr, tidytext <br> tibble) --> C(VISUALIZE <br> ggplot2, plotly)
+  C(VISUALIZE <br> ggplot2, plotly) --> D(TRANSFORM <br> lubridate, forcats <br> dplyr, stringr)
+  D(TRANSFORM <br> lubridate, forcats <br> dplyr, stringr) --> E(MODEL <br> tidymodels)
+  E(MODEL <br> tidymodels) --> C(VISUALIZE <br> ggplot2, plotly)
+  E(MODEL <br> tidymodels) --> F(COMMUNICATE <br> Rmarkdown, Shiny)
+```
+
+```{mermaid}
+journey
+    title Business Science Workflow
+    section Prepare Data
+      Sourcing: 5: Business Problem
+      Cleaning: 5: Business Problem
+      Recasting: 5: Business Problem
+    section Experimentation
+      Go downstairs: 2: Business Value
+      Sit down: 2: Business Value
+    section Distribution
+      Reporting:
+      Distribution:
+```
+
+## Import Data
+
+In order to perform data analysis, you need *data* coming from a source (*csv/excel file, database or on the web*). Extracting data from a **CSV** file can be achieved with the code below.
+
+## CSV
+
+Reading data from a CSV file:
+
+```{r}
+# library(readr)
+# library(gt)
+# library(tidyverse)
+# csv_tbl <- read_csv("./data/train.csv", )
+# 
+# # use head method to view first 5 rows
+# csv_tbl[78:81] %>%
+#   head()# %>%
+#   #gt()
+# #library(fs)
+# write_csv(csv_tbl, "./data/csv_tbl.csv")
+```
+
+## Excel
+
+Reading data from an excel file:
+
+```{r}
+# library(readxl) 
+#library(tidyverse)
+#excel_tbl <- read_xls("./data/orderlines.xlsx")
+
+# use gt library to view first 5 rows
+#excel_tbl %>%
+```
 
 ## Data Cleaning
 

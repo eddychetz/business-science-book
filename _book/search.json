@@ -101,42 +101,49 @@
     "objectID": "foundational.html#data-cleaning",
     "href": "foundational.html#data-cleaning",
     "title": "2  Foundational Skills",
-    "section": "2.1 Data Cleaning",
-    "text": "2.1 Data Cleaning\nThis involves:\n\nremoving duplicates,\nchecking missing data and performing imputations, if necessary,\nverifying data types if match the data dictionary,\ndropping of irrelevant columns.\n\n\n2.1.1 Libraries\n\n\n\n\n\n\n\n\nThanks to skimr as this package is capable of scanning your data and gives you the skeletal view and most important descriptive summary of variables in the data set.\n\n\n\nData summary\n\n\nName\ndata\n\n\nNumber of rows\n32\n\n\nNumber of columns\n5\n\n\n_______________________\n\n\n\nColumn type frequency:\n\n\n\nfactor\n4\n\n\nnumeric\n1\n\n\n________________________\n\n\n\nGroup variables\nNone\n\n\n\nVariable type: factor\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\nn_missing\ncomplete_rate\nordered\nn_unique\ntop_counts\n\n\n\n\nClass\n0\n1\nFALSE\n4\n1st: 8, 2nd: 8, 3rd: 8, Cre: 8\n\n\nSex\n0\n1\nFALSE\n2\nMal: 16, Fem: 16\n\n\nAge\n0\n1\nFALSE\n2\nChi: 16, Adu: 16\n\n\nSurvived\n0\n1\nFALSE\n2\nNo: 16, Yes: 16\n\n\n\nVariable type: numeric\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\nn_missing\ncomplete_rate\nmean\nsd\np0\np25\np50\np75\np100\n\n\n\n\nFreq\n0\n1\n68.78\n136\n0\n0.75\n13.5\n77\n670"
+    "section": "2.2 Data Cleaning",
+    "text": "2.2 Data Cleaning\nThis involves:\n\nremoving duplicates,\nchecking missing data and performing imputations, if necessary,\nverifying data types if match the data dictionary,\ndropping of irrelevant columns.\n\n\n2.2.1 Libraries\n\n\n\n\n\n\n\n\nThanks to skimr as this package is capable of scanning your data and gives you the skeletal view and most important descriptive summary of variables in the data set.\n\n\n\nData summary\n\n\nName\ndata\n\n\nNumber of rows\n32\n\n\nNumber of columns\n5\n\n\n_______________________\n\n\n\nColumn type frequency:\n\n\n\nfactor\n4\n\n\nnumeric\n1\n\n\n________________________\n\n\n\nGroup variables\nNone\n\n\n\nVariable type: factor\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\nn_missing\ncomplete_rate\nordered\nn_unique\ntop_counts\n\n\n\n\nClass\n0\n1\nFALSE\n4\n1st: 8, 2nd: 8, 3rd: 8, Cre: 8\n\n\nSex\n0\n1\nFALSE\n2\nMal: 16, Fem: 16\n\n\nAge\n0\n1\nFALSE\n2\nChi: 16, Adu: 16\n\n\nSurvived\n0\n1\nFALSE\n2\nNo: 16, Yes: 16\n\n\n\nVariable type: numeric\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\nn_missing\ncomplete_rate\nmean\nsd\np0\np25\np50\np75\np100\n\n\n\n\nFreq\n0\n1\n68.78\n136\n0\n0.75\n13.5\n77\n670"
   },
   {
     "objectID": "foundational.html#data-wrangling",
     "href": "foundational.html#data-wrangling",
     "title": "2  Foundational Skills",
-    "section": "2.2 Data Wrangling",
-    "text": "2.2 Data Wrangling"
+    "section": "2.3 Data Wrangling",
+    "text": "2.3 Data Wrangling"
   },
   {
     "objectID": "foundational.html#visualization",
     "href": "foundational.html#visualization",
     "title": "2  Foundational Skills",
-    "section": "2.3 Visualization",
-    "text": "2.3 Visualization"
+    "section": "2.4 Visualization",
+    "text": "2.4 Visualization"
   },
   {
     "objectID": "foundational.html#exploratory-data-analysis",
     "href": "foundational.html#exploratory-data-analysis",
     "title": "2  Foundational Skills",
-    "section": "2.4 Exploratory Data Analysis",
-    "text": "2.4 Exploratory Data Analysis"
+    "section": "2.5 Exploratory Data Analysis",
+    "text": "2.5 Exploratory Data Analysis"
   },
   {
     "objectID": "foundational.html#machine-learning",
     "href": "foundational.html#machine-learning",
     "title": "2  Foundational Skills",
-    "section": "2.5 Machine Learning",
-    "text": "2.5 Machine Learning\n\nClustering\nReporting\nProgramming"
+    "section": "2.6 Machine Learning",
+    "text": "2.6 Machine Learning\n\nClustering\nReporting\nProgramming"
   },
   {
     "objectID": "intro.html#overview",
     "href": "intro.html#overview",
     "title": "1  Introduction",
     "section": "1.1 Overview",
-    "text": "1.1 Overview\nThis book will mainly focus on explaining the major steps in the Machine Learning process with reference to the CRISP-DM model. For easy use of this book, each step in the process will give a basic illustration in order to understand how it is implemented using R.\nFor an individual to have the knowledge of Machine Learning only is not enough to bring impact the decisions people make individually or in a business organization. Knowing the financial implication of Machine Learning equips you with modern, classical, and state-of-the-art tools for business. Therefore, in addition to steps in the Machine Learning process and its financial benefits to Business Science, this book will include the domain area in which it is applied mainly to Financial Services 💰, Food & Beverages 🧃🍽️, Retail & E-commerce 🛒, Education 📚, and Product Distribution 🚚, Manufacturing 🏭 and Real Estate 🏘️.\n\n\nCode\n1 + 1\n\n\n[1] 2"
+    "text": "1.1 Overview\nThis book will mainly focus on explaining the major steps in the Machine Learning process with reference to the CRISP-DM model. For easy use of this book, each step in the process will give a basic illustration in order to understand how it is implemented using R.\nFor an individual to have the knowledge of Machine Learning only is not enough to bring impact the decisions people make individually or in a business organization. Knowing the financial implication of Machine Learning equips you with modern, classical, and state-of-the-art tools for business. Therefore, in addition to steps in the Machine Learning process and its financial benefits to Business Science, this book will include the domain area in which it is applied mainly to Financial Services 💰, Food & Beverages 🧃🍽️, Retail & E-commerce 🛒, Education 📚, and Product Distribution 🚚, Manufacturing 🏭 and Real Estate 🏘️.\nIn order to meet the demands of customers’ needs, one must have the tools that enable customers to connect to your variety of services. This\n\n\n\nSource: Business Science Problem Framework (Dancho, M., 2021)"
+  },
+  {
+    "objectID": "foundational.html#introduction",
+    "href": "foundational.html#introduction",
+    "title": "2  Foundational Skills",
+    "section": "2.1 Introduction",
+    "text": "2.1 Introduction\nIn summary, this section has Business Science Foundational Skills content. This includes the entire Business Science process; from data importing to cleaning, wrangling, exploratory data analysis (EDA), feature engineering, splitting, model building and evaluation, reporting and communication of results.\n\n2.1.1 Business Science Workflow in R\n\n\n\n\nflowchart LR\n  A(IMPORT <br> readr, readxl <br> tidyquant, rvest) --> B(TIDY <br> tidyr, tidytext<br> tibble)\n  B(TIDY <br> tidyr, tidytext <br> tibble) --> C(VISUALIZE <br> ggplot2, plotly)\n  C(VISUALIZE <br> ggplot2, plotly) --> D(TRANSFORM <br> lubridate, forcats <br> dplyr, stringr)\n  D(TRANSFORM <br> lubridate, forcats <br> dplyr, stringr) --> E(MODEL <br> tidymodels)\n  E(MODEL <br> tidymodels) --> C(VISUALIZE <br> ggplot2, plotly)\n  E(MODEL <br> tidymodels) --> F(COMMUNICATE <br> Rmarkdown, Shiny)\n\n\n\n\n\n\n\n\n\n\n\n\njourney\n    title Business Science Workflow\n    section Prepare Data\n      Sourcing: 5: Business Problem\n      Cleaning: 5: Business Problem\n      Recasting: 5: Business Problem\n    section Experimentation\n      Go downstairs: 2: Business Value\n      Sit down: 2: Business Value\n    section Distribution\n      Reporting:\n      Distribution:"
   }
 ]

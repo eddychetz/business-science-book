@@ -32,18 +32,16 @@ bibliography: references.bib
 format:
   html:
     theme:
-      light: darkly
-      dark: cosmo
-    code-copy: true
-    code-fold: true
-  pdf:
-    documentclass: scrreprt
-    include-in-header:
-      text: |
-        \usepackage{makeidx}
-        \makeindex
-    include-after-body:
-      text: |
-        \printindex
-editor: visual
+      dark: darkly
+      light: cosmo
+#   pdf:
+#     documentclass: scrreprt
+#     include-in-header:
+#       text: |
+#         \usepackage{makeidx}
+#         \makeindex
+#     include-after-body:
+#       text: |
+#         \printindex
+# editor: visual
 
